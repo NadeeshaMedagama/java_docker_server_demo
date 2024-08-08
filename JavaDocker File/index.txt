@@ -1,0 +1,8 @@
+Docker Commands for run this simple application
+
+docker build -t java-hello-world .
+
+docker run -p 8080:8080 java-hello-world
+
+Open a web browser or use curl to access the application-
+curl http://localhost:8080
